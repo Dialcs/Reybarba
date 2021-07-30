@@ -31,7 +31,7 @@ body {
 }
 
 main {
-  padding-top: 80px;
+/*   padding-top: 80px; */
 }
 
 /* NAV */
@@ -147,9 +147,9 @@ main {
   }
 
 /* Home */
-.home {
-  height: calc(100vh - 80px);
+.home {  
   background-image: url(../img/foto12.jpg);
+  height: 100vh;
   background-size: cover;
   background-position: center;
   display: flex;
