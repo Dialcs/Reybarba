@@ -30,9 +30,9 @@ body {
   margin: 0 auto;
 }
 
-main {
-/*   padding-top: 80px; */
-}
+/* main {
+  padding-top: 80px; 
+} */
 
 /* NAV */
 
@@ -147,8 +147,8 @@ main {
   }
 
 /* Home */
-.home {  
-  background-image: url(../img/foto12.jpg);
+.home {
+  background-image: url(../img/fondo.png);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -156,20 +156,10 @@ main {
   align-items: center;
 }
 
-.home::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #000000;
-  opacity: 0.8;
-}
-
 .center {
   position: relative;
   text-align: center;
+  padding-top: 100px;
   top: -20px;
   z-index: 1;
 }
